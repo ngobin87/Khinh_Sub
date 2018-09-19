@@ -1,7 +1,12 @@
 #TEST
+*{
+	padding: 0;
+	margin:0;
+}
 .khung{
+	margin: 0 auto;
 	width: 1020px;
-	height: auto;
+	height: 1000px;
 }
 /*thành*/
 /*thành*/
@@ -10,6 +15,169 @@
 /*Bảo*/
 /*Bảo*/
 /*Haem*/
+.khung .our {
+
+	width: 100%;
+	height: 350px;
+	background: gray;
+}
+.our h2{
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	color: red;
+}
+.our .boder{
+	width: 5%;
+	height: 5px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+.our .Gth{
+	width: 80%;
+	height:260px;
+	margin: 0 auto;
+	margin-top: 13px;
+	background: green;
+}
+.Gth .box{
+	float: left;
+	width: 23%;
+	height: 100%;
+	background: yellow;
+	margin-left: 13.5px;
+}
+.Gth .box img{
+	margin: 0;
+	width: 188px;
+	height: 190px;
+}
+.Gth .box h3{
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+.Gth .box p{
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+}
+.Gth .box a{
+	text-decoration: none;
+	color: black;
+}
+.Gth .box a:hover{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: blue;
+}
+.khung .Pricing{
+	width: 100%;
+	height: 400px;
+	background: green;
+}
+.Pricing .line{
+	width: 5%;
+	height: 5px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+.Pricing h2{
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.Pricing p{
+	padding:10px 5px 5px 5px;
+	margin: 0;
+	text-align: center;
+	color: black;
+}
+.Pricing p.p{
+	padding: 0;
+	text-align: center;
+	color: black;
+}
+.Pricing .permonth{
+	margin: 0 auto;
+	width: 70%;
+	height: 292px;
+	/*background: gray;*/
+	
+}
+.Pricing .permonth .buy{
+	width: 23%;
+	height: 292px;
+	background: yellow;
+	border-left: 2px solid white;
+}
+.permonth .buy .box1{
+	width: 100%;
+	height: 100px;
+	
+}
+.buy .box1 .tien{
+	float: left;
+	width: 30%;
+	height: 60px;
+	background: red;
+}
+.buy .box1 .tien p{
+	margin: 0;
+	color: white;
+	font-size: 50px;
+}
+.buy .box1 .per{
+	float: left;
+	width: 70%;
+	height: 60px;
+}
+.buy .box1 .per p{
+	text-transform: uppercase;
+	margin: 0;
+	color: white;
+	padding-top: 40px;
+	font-size: 20px;
+}
+.buy .box1 .sta{
+	width: 100%
+	height: 40px;
+	background: red;
+}
+.buy .box1 .sta p{
+	padding: 0;
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.buy .box2 {
+ 	width: 100%;
+ 	height: 300px;
+}
+.buy .box2 p{
+	margin: 0;
+	padding: 10px;
+	text-align: inherit;
+}
+.buy .box2 ul li {
+	display: block;
+	width: 100%;
+	height: 15%;
+	list-style: none;
+}
+
+
+
+
+
+
 /*Haem*/
 /*Phe*/
 /*Phe*/
